@@ -205,7 +205,7 @@ export class MyComponent {
 <ckeditor [disabled]="isDisabled" ...></ckeditor>
 
 <button (click)="toggleDisabled()">
-	{TODO umberto bug{ isDisabled ? 'Enable editor' : 'Disable editor' }}
+	{{ isDisabled ? 'Enable editor' : 'Disable editor' }}
 </button>
 ```
 
